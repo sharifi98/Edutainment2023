@@ -1,6 +1,6 @@
-#Edutainment Multiplication Tables Practice App
+Edutainment Multiplication Tables Practice App
 
-#This Swift application is designed to provide an engaging and fun way for children to practice their multiplication tables.
+This Swift application is designed to provide an engaging and fun way for children to practice their multiplication tables.
 Features
 
     Table Selection: The player can choose which multiplication tables they want to practice, from 2 up to 12.
