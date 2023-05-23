@@ -11,6 +11,9 @@
 		0396B3852A1D0A8400E24BE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B3842A1D0A8400E24BE6 /* ContentView.swift */; };
 		0396B3872A1D0A8600E24BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0396B3862A1D0A8600E24BE6 /* Assets.xcassets */; };
 		0396B38A2A1D0A8600E24BE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0396B3892A1D0A8600E24BE6 /* Preview Assets.xcassets */; };
+		0396B3912A1D0B6500E24BE6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B3902A1D0B6400E24BE6 /* SettingsView.swift */; };
+		0396B3932A1D0EE700E24BE6 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B3922A1D0EE700E24BE6 /* Questions.swift */; };
+		0396B3952A1D0FD100E24BE6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B3942A1D0FD100E24BE6 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		0396B3842A1D0A8400E24BE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0396B3862A1D0A8600E24BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0396B3892A1D0A8600E24BE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0396B3902A1D0B6400E24BE6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0396B3922A1D0EE700E24BE6 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		0396B3942A1D0FD100E24BE6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				0396B3822A1D0A8400E24BE6 /* EdutainmentV2App.swift */,
 				0396B3842A1D0A8400E24BE6 /* ContentView.swift */,
+				0396B3942A1D0FD100E24BE6 /* GameView.swift */,
+				0396B3902A1D0B6400E24BE6 /* SettingsView.swift */,
+				0396B3922A1D0EE700E24BE6 /* Questions.swift */,
 				0396B3862A1D0A8600E24BE6 /* Assets.xcassets */,
 				0396B3882A1D0A8600E24BE6 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0396B3912A1D0B6500E24BE6 /* SettingsView.swift in Sources */,
+				0396B3932A1D0EE700E24BE6 /* Questions.swift in Sources */,
 				0396B3852A1D0A8400E24BE6 /* ContentView.swift in Sources */,
 				0396B3832A1D0A8400E24BE6 /* EdutainmentV2App.swift in Sources */,
+				0396B3952A1D0FD100E24BE6 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

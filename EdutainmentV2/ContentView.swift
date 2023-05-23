@@ -7,15 +7,34 @@
 
 import SwiftUI
 
+import SwiftUI
+
+import SwiftUI
+
 struct ContentView: View {
+    @State private var gameIsActive = false
+    @State private var tableSelection = 1
+    @State private var questionCount = 5
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Group {
+            if gameIsActive {
+                GameView(gameIsActive: $gameIsActive, questions: generateQuestions(tableSelection: tableSelection, questionCount: questionCount))
+            } else {
+                SettingsView(gameIsActive: $gameIsActive, tableSelection: $tableSelection, questionCount: $questionCount)
+            }
         }
-        .padding()
+    }
+    
+    func generateQuestions(tableSelection: Int, questionCount: Int) -> [Question] {
+        var questions: [Question] = []
+        for _ in 0..<questionCount {
+            let randomNumber = Int.random(in: 1...10)
+            let questionText = "\(tableSelection) x \(randomNumber)"
+            let answer = tableSelection * randomNumber
+            questions.append(Question(text: questionText, answer: answer))
+        }
+        return questions
     }
 }
 
